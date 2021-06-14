@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+#{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.header{
+     width:100%;
+     height: 50vh;
+     background-color: #fff;
+     position: relative;
+}
+.header .navbar{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 30px;
+}
+.logo img{
+  margin-left: 100px;
+}
+.menu ul li{
+  display: inline-block;
+  padding: 0 30px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  align-items: center;
+  color: #696969;
+}
+.menu ul a{
+  display: inline-block;
+  padding: 0 30px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  align-items: center;
+  color: red;
+}
+.textbanner{
+  width: 80%;
+  height: 70%;
+  position: absolute;
+  top: 25%;
+  left: 150px;
+  color: #000000;
+}
+.app-text{
+  width: 50%;
+  float: left;
+  padding-left: 50px;
+}
+.app-text h3{
+  margin-top: 100px;
+  font-size: 17px;
+  color: #696969;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.app-text h1{
+  font-size: 51px;
+  position: relative;
+  color: #696969
+  margin-top: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+.app-text p{
+  font-size: 13px;
+  margin: 30px 30px 30px 0;
+  letter-spacing: 1px;
+  color: #696969;
+  padding-right: 250px;
+}
+/* a {
+  color: #696969;
+  text-decoration: none;
+}
+a:visited {
+  color: #daa520;
+  text-decoration: none;
+} */
+/* a:hover, a:active, a:focus {
+  color:#c33;
+  text-decoration: none;
+}
+a {
+  color: #696969;
+  text-decoration: none;
+} */
+.menu ul a{
+  /* display: inline-block; */
+  /* padding: 0 30px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  align-items: center; */
+  color: #ff0000;
+  text-decoration: none;
+}
+.menu ul a:visited{
+  /* display: inline-block; */
+  /* padding: 0 30px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  align-items: center; */
+  color: #daa520;
+  text-decoration: none;
+}
+.menu ul a:hover, a:active, a:focus{
+  /* display: inline-block; */
+  /* padding: 0 30px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  align-items: center; */
+  color: #daa520;
+  text-decoration: none;
+}
